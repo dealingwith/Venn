@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lib/underscore-min.js"></script>
+	<script type="text/javascript" src="js/venn.js"></script>
+	<script type="text/javascript">
+		var users = {
+			user1things: 200,
+			user2things: 200,
+			commonthings: 50,
+			user1name: "Daniel",
+			user2name: "Ben"
+		};
+	</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets/venn_demo.css">
+</head>
+<body>
+<div id="container" class="centered">
+  <div id="venn_container" class="centered">
+	<div class="circle" id="user1things"></div>
+	<div class="circle" id="user2things"></div>
+	<hr style="clear: both; visibility: hidden;">
+	<div class="label userlabel" id="user1label"></div>
+	<div class="label userlabel" id="user2label"></div>
+	<hr style="clear: both; visibility: hidden;">
+	<div class="label centered" id="commonthings"></div>
+  </div>
+</div>
+</pre>
+</body>
+</html>
